@@ -1,16 +1,16 @@
-// area of rectangle
+// 1. area of rectangle
 const lenRectangle: number = 5;
 const widthRectangle: number = 3;
 const areaOfRectangle = lenRectangle * widthRectangle;
 console.log(areaOfRectangle);
 
-// perimeter of rectangle
+// 2. perimeter of rectangle
 const lenRec: number = 5;
 const widthRec: number = 3;
 const perimeterOfRec: number = 2 * lenRec + 2 * widthRec;
 console.log(perimeterOfRec);
 
-// diameter, circumference, area of circle
+// 3. diameter, circumference, area of circle
 const radius: number = 5;
 const pi: number = 3.14;
 const diameterOfCircle: number = 2 * radius;
@@ -20,13 +20,13 @@ console.log(diameterOfCircle);
 console.log(circumferenceOfCircle);
 console.log(areaOfCircle);
 
-// angle of triangles
+// 4. angle of triangles
 const angle1: number = 80;
 const angle2: number = 65;
 const angleOfTriangle: number = 180 - (angle1 + angle2);
 console.log(angleOfTriangle);
 
-// days converter
+// 5. days converter
 let days: number = 366;
 let years: number = days / 365;
 console.log(years.toFixed());
