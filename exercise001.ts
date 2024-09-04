@@ -39,3 +39,18 @@ console.log(remainderDays);
 console.log(
   `${days} days -> ${years.toFixed()} year, ${months.toFixed()} month, ${remainderDays} days`
 );
+
+// another version
+// soal no 5
+const days5: number = 400;
+const _years: number = Math.floor(days5 / 365);
+const _months: number = Math.floor((days5 % 365) / 30);
+console.log(days5 % 365);
+const _days: number = Math.floor((days5 % 365) % 30);
+console.log(`${days5} days -> ${_years} year, ${_months} month, ${_days} day`);
+
+// soal no 6
+const date1: Date = new Date("2022-01-20");
+const date2: Date = new Date("2022-03-30");
+const perbedaanDate = (date2.getTime() - date1.getTime()) / (24 * 3600 * 1000);
+console.log(perbedaanDate);
